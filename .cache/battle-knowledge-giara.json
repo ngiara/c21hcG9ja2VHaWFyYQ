@@ -342,7 +342,7 @@
       "canAttackSource": "observed-rush",
       "remainingHp": 50,
       "remainingHpSource": "server-attack-observation",
-      "remainingHpObservedAt": "2026-10-16T15:17:16.997Z",
+      "remainingHpObservedAt": "2026-10-17T08:14:21.456Z",
       "hp": 50,
       "maxHp": 50,
       "hpSource": "server-attack-snapshot",
@@ -462,10 +462,7 @@
       },
       "hpConflictSource": "catalog-vs-observed"
     },
-    "PB-116": {
-      "summonCost": 1,
-      "summonCostSource": "trainer-log"
-    },
+    "PB-116": {},
     "PB-102": {},
     "WAM-001": {
       "catalogHp": 80,
@@ -1046,10 +1043,7 @@
       },
       "hpConflictSource": "catalog-vs-observed"
     },
-    "OSH-089": {
-      "summonCost": 1,
-      "summonCostSource": "trainer-log"
-    },
+    "OSH-089": {},
     "OSH-084": {
       "ruleText": "if you have another Osshi character in your Field, this card gets skill damage +30. On play: another friendly character gets skill damage +20 this turn.",
       "ruleTextSource": "catalog",
@@ -1082,14 +1076,8 @@
       "canAttackImmediately": true,
       "canAttackSource": "observed-rush"
     },
-    "PB-119": {
-      "summonCost": 1,
-      "summonCostSource": "trainer-log"
-    },
-    "PB-114": {
-      "summonCost": 1,
-      "summonCostSource": "trainer-log"
-    },
+    "PB-119": {},
+    "PB-114": {},
     "OSH-004": {
       "ruleText": "if you have another Osshi character in your Field, this card gets HP +20.",
       "ruleTextSource": "catalog",
@@ -1136,10 +1124,7 @@
       "canAttackImmediately": true,
       "canAttackSource": "observed-rush"
     },
-    "OSH-088": {
-      "summonCost": 1,
-      "summonCostSource": "trainer-log"
-    },
+    "OSH-088": {},
     "OSH-072": {
       "ruleText": "if you have another Flame character in your Field, this card gets HP +20.",
       "ruleTextSource": "catalog",
@@ -1449,10 +1434,7 @@
       "canAttackImmediately": true,
       "canAttackSource": "observed-rush"
     },
-    "PB-131": {
-      "summonCost": 1,
-      "summonCostSource": "trainer-log"
-    },
+    "PB-131": {},
     "PB-082": {
       "ruleText": "if you have another Cost1 chibikko in your Field, this card gets skill damage +20.",
       "ruleTextSource": "catalog",
@@ -1512,10 +1494,7 @@
       "selfSkillDamageBonus": 20,
       "selfSkillDamageSource": "passive"
     },
-    "PB-105": {
-      "summonCost": 1,
-      "summonCostSource": "trainer-log"
-    },
+    "PB-105": {},
     "CRA-008": {
       "skillEffect": "if another friendly Red AMATO attacked earlier this turn, this card gets skill damage +20.",
       "skillEffectSource": "catalog",
@@ -1715,10 +1694,7 @@
       "canAttackImmediately": true,
       "canAttackSource": "observed-rush"
     },
-    "PB-146": {
-      "summonCost": 1,
-      "summonCostSource": "trainer-log"
-    },
+    "PB-146": {},
     "PB-086": {
       "skillEffect": "when attacking a character with Cost4 or more, this card gets skill damage +20.",
       "skillEffectSource": "catalog",
@@ -1877,10 +1853,7 @@
       "maxHpSource": "server-attack-snapshot",
       "legacyHpAmbiguous": false
     },
-    "STA-008": {
-      "summonCost": 1,
-      "summonCostSource": "trainer-log"
-    },
+    "STA-008": {},
     "CRA-003": {
       "skillEffect": "if the target's HP is higher than this card's, this card gets skill damage +20.",
       "skillEffectSource": "catalog",
@@ -2013,10 +1986,7 @@
       "summonCost": 3,
       "summonCostSource": "observed"
     },
-    "PB-103": {
-      "summonCost": 1,
-      "summonCostSource": "trainer-log"
-    },
+    "PB-103": {},
     "PB-080": {
       "ruleText": "When this card is played, the opposing character with the highest HP gets HP-20 this turn.",
       "ruleTextSource": "catalog",
@@ -2038,10 +2008,7 @@
     },
     "PB-148": {},
     "PB-130": {},
-    "PB-127": {
-      "summonCost": 2,
-      "summonCostSource": "trainer-log"
-    },
+    "PB-127": {},
     "HLC-F01": {
       "catalogHp": 80,
       "catalogHpSource": "catalog",
@@ -2064,10 +2031,7 @@
       },
       "hpConflictSource": "catalog-vs-observed"
     },
-    "PB-101": {
-      "summonCost": 1,
-      "summonCostSource": "trainer-log"
-    },
+    "PB-101": {},
     "PA-079": {
       "ruleText": "On play: the next aniki you summon this turn gets Cost-1 (once per turn; does not stack).",
       "ruleTextSource": "catalog",
@@ -2112,10 +2076,7 @@
       "maxHpSource": "server-attack-snapshot",
       "legacyHpAmbiguous": false
     },
-    "PB-120": {
-      "summonCost": 1,
-      "summonCostSource": "trainer-log"
-    },
+    "PB-120": {},
     "PB-083": {
       "ruleText": "On play: the next Cost1 chibikko you summon this turn gets Cost-1 (once per turn; does not stack).",
       "ruleTextSource": "catalog",
@@ -2254,16 +2215,16 @@
       "0": {
         "name": "Ember Wave",
         "damage": 80,
-        "targetHp": 50,
-        "direct": false,
+        "targetHp": 0,
+        "direct": true,
         "observedValid": true,
-        "lastObservedAt": "2026-10-16T15:51:52.165Z",
+        "lastObservedAt": "2026-10-17T08:15:15.567Z",
         "damageHistory": [
           80,
           60,
           100
         ],
-        "observationCount": 91,
+        "observationCount": 93,
         "namesSeen": [
           "Ember Wave"
         ],
@@ -2736,15 +2697,15 @@
       "0": {
         "name": "Snow Puff",
         "damage": 40,
-        "targetHp": 70,
-        "direct": false,
+        "targetHp": 0,
+        "direct": true,
         "observedValid": true,
-        "lastObservedAt": "2026-10-16T15:41:37.111Z",
+        "lastObservedAt": "2026-10-17T08:15:04.748Z",
         "damageHistory": [
           40,
           20
         ],
-        "observationCount": 74,
+        "observationCount": 75,
         "namesSeen": [
           "Snow Puff"
         ],
@@ -6393,8 +6354,8 @@
         "mismatches": 0
       },
       "CRA-001|0": {
-        "samples": 91,
-        "exactMatches": 86,
+        "samples": 93,
+        "exactMatches": 88,
         "mismatches": 0,
         "unexplained": 5
       },
@@ -6524,8 +6485,8 @@
         "unexplained": 8
       },
       "WAM-001|0": {
-        "samples": 74,
-        "exactMatches": 61,
+        "samples": 75,
+        "exactMatches": 62,
         "mismatches": 0,
         "unexplained": 13
       },
@@ -6892,7 +6853,7 @@
         "conflictLogged": true
       },
       "AMC-002": {
-        "samples": 60,
+        "samples": 61,
         "conflicts": 1,
         "conflictLogged": true
       },
@@ -7281,13 +7242,13 @@
         "updatedAt": "2026-10-16T15:25:19.625Z"
       },
       "CRA-001|skillDamage|transient": {
-        "samples": 91,
-        "exact": 86,
+        "samples": 93,
+        "exact": 88,
         "mismatches": 5,
         "lastPredicted": 80,
         "lastObserved": 80,
         "transient": true,
-        "updatedAt": "2026-10-16T15:51:52.165Z"
+        "updatedAt": "2026-10-17T08:15:15.567Z"
       },
       "AMC-002|skillDamage|transient": {
         "samples": 67,
@@ -7506,13 +7467,13 @@
         "updatedAt": "2026-10-16T16:06:03.194Z"
       },
       "WAM-001|skillDamage|transient": {
-        "samples": 74,
-        "exact": 61,
+        "samples": 75,
+        "exact": 62,
         "mismatches": 13,
         "lastPredicted": 40,
         "lastObserved": 40,
         "transient": true,
-        "updatedAt": "2026-10-16T15:41:37.111Z"
+        "updatedAt": "2026-10-17T08:15:04.749Z"
       },
       "SLC-002|skillDamage|transient": {
         "samples": 34,
@@ -8174,33 +8135,6 @@
     }
   },
   "effectCalibrationLog": [
-    {
-      "at": "2026-10-16T14:32:41.532Z",
-      "card": "BS-013",
-      "stat": "skillDamage",
-      "key": "transient",
-      "predicted": 70,
-      "observed": 70,
-      "side": "player"
-    },
-    {
-      "at": "2026-10-16T14:33:02.919Z",
-      "card": "BS-013",
-      "stat": "skillDamage",
-      "key": "transient",
-      "predicted": 70,
-      "observed": 70,
-      "side": "player"
-    },
-    {
-      "at": "2026-10-16T14:33:46.201Z",
-      "card": "BS-013",
-      "stat": "skillDamage",
-      "key": "transient",
-      "predicted": 70,
-      "observed": 70,
-      "side": "player"
-    },
     {
       "at": "2026-10-16T14:33:57.698Z",
       "card": "BS-013",
@@ -9973,12 +9907,39 @@
       "predicted": 130,
       "observed": 130,
       "side": "opponent"
+    },
+    {
+      "at": "2026-10-17T08:14:21.456Z",
+      "card": "CRA-001",
+      "stat": "skillDamage",
+      "key": "transient",
+      "predicted": 80,
+      "observed": 80,
+      "side": "player"
+    },
+    {
+      "at": "2026-10-17T08:15:04.749Z",
+      "card": "WAM-001",
+      "stat": "skillDamage",
+      "key": "transient",
+      "predicted": 40,
+      "observed": 40,
+      "side": "player"
+    },
+    {
+      "at": "2026-10-17T08:15:15.567Z",
+      "card": "CRA-001",
+      "stat": "skillDamage",
+      "key": "transient",
+      "predicted": 80,
+      "observed": 80,
+      "side": "player"
     }
   ],
   "stats": {
-    "observations": 15765,
-    "matches": 280,
-    "actions": 5332,
+    "observations": 15783,
+    "matches": 281,
+    "actions": 5341,
     "finishingAttacks": 227,
     "fieldAttacksFailed": 413,
     "failedAttackDamage": {
